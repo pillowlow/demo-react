@@ -66,3 +66,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Prerequisite
+
+1. npm install, if error occured, delete node_modules and reinstall
+2. change webpack.config.js in "node_modules\react-scripts\config\webpack.config.js" line 376, imageInlineSizeLimit -> false. TODO: use inject to automize it
+3. npm start

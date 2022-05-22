@@ -8,11 +8,16 @@
     "@types/node": "^13.13.4",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",
+    "expand-brackets": "^4.0.0",
+    "fast-glob": "^3.2.11",
     "phaser": "^3.53.1",
+    "phaser-matter-collision-plugin": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "typescript": "^4.0.0"
+    "snapdragon": "^0.12.1",
+    "snapdragon-node": "^3.0.0",
+    "source-map": "^0.7.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,5 +33,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  }
 }

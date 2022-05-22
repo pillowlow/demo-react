@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { IonPhaser, GameInstance } from '@ion-phaser/react'
+import Phaser from 'phaser'
 import logo from './assets/logo.png'
 import GameScene from "./GameScene.js";
 import PhaserMatterCollisionPlugin from "phaser-matter-collision-plugin";
@@ -7,10 +8,10 @@ import './App.css'
 
 const gameConfig: GameInstance = {
 
-  type: Phaser.AUTO,
-  parent: "phaser-example",
   width: 800,
   height: 800,
+  type: Phaser.AUTO,
+  // parent: "phaser-example", // TODO: research what it is
   scene: GameScene,
   physics: {
     default: 'matter',
